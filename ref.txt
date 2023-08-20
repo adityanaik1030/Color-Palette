@@ -1,0 +1,12 @@
+element{
+    transition : transform 0.3s ease;
+}
+
+and
+
+element:active{
+    transform: scale(0.8)
+}
+
+transition property takes 2 values 1) wgich property to affect and 2)timings like duration how long it must affect that property
+from the above ex, transition property affects transform property which has value scale(scale shrinks the particular content to the size mentioned)
